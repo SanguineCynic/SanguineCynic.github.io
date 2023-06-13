@@ -4,9 +4,131 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cardstyles.css">
+
     <title>Astwood Tech</title>
 </head>
 <body>
-    <img src="backflipdog.gif" alt="Backflipping Dog Gif">
+    <header>
+        <h1>Astwood Tech</h1>
+
+        <div class="centerColumnFlex">
+            <p>We're open for new collaborations.</p>
+            <p>News to be uploaded weekly.</p>
+        </div>
+
+        <h1 id="menu">☰</h1>
+    </header> <!--Close topbar div-->
+    <hr>
+
+    <div class="cardcontainer">
+
+        <div class="card">
+            <div class="icon" id="LuckPreview">
+                <ion-icon name="globe-outline"></ion-icon></a>
+            </div>
+            <div class="content">
+                <a href="https://sanguinecynic.github.io/Luck-Card-Game/"><h2>Luck</h2></a>
+                <p>
+                    A card game designed in HTML, CSS and vanilla JS in which two players take turns drawing cards from a randomly shuffled
+                    deck. The player with the higher card at each draw gains points.
+                </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="icon">
+                <ion-icon name="globe-outline"></ion-icon>
+            </div>
+            <div class="content">
+                <h2>WIP</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Corporis expedita dolores alias recusandae doloribus!
+                    Accusantium sit consectetur, necessitatibus facilis enim
+                    illum optio velit voluptatem tempore
+                    explicabo laudantium modi quos earum.
+                </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="icon">
+                <ion-icon name="globe-outline"></ion-icon>
+            </div>
+            <div class="content">
+                <h2>WIP</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Corporis expedita dolores alias recusandae doloribus!
+                    Accusantium sit consectetur, necessitatibus facilis enim
+                    illum optio velit voluptatem tempore
+                    explicabo laudantium modi quos earum.
+                </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="icon">
+                <ion-icon name="globe-outline"></ion-icon>
+            </div>
+            <div class="content">
+                <h2>WIP</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Corporis expedita dolores alias recusandae doloribus!
+                    Accusantium sit consectetur, necessitatibus facilis enim
+                    illum optio velit voluptatem tempore
+                    explicabo laudantium modi quos earum.
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="icon">
+                <ion-icon name="globe-outline"></ion-icon>
+            </div>
+            <div class="content">
+                <h2>WIP</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Corporis expedita dolores alias recusandae doloribus!
+                    Accusantium sit consectetur, necessitatibus facilis enim
+                    illum optio velit voluptatem tempore
+                    explicabo laudantium modi quos earum.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <form id="footerform" action="https://formspree.io/f/mayzrykj" method="POST" class="centerColumnFlex">
+            <h1>Contact Me</h1>
+            <div style="display: flex; justify-content: space-around;">
+                <label>
+                    Your name:
+                    <input type="text" name="name">
+                </label>
+                <label>
+                    Your email:
+                    <input type="email" name="email">
+                </label>
+            </div>
+            
+              <label>
+                Your message:
+            </label>
+            <textarea name="message"></textarea>
+              <!-- your other form fields go here -->
+              <button type="submit" id="formSubmit">Send</button>
+            <p>©2023 AstwoodTech</p>
+        </form>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
