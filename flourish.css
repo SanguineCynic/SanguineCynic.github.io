@@ -1,0 +1,29 @@
+/* Lines around headings */
+.flourish {
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    padding-top: 2%;
+  }
+  .flourish:before, 
+  .flourish:after {
+    content: "";
+    display: inline-block;
+    vertical-align: bottom;
+    top: -0.5em;
+    position: relative;
+    width: 50%;
+    border-top-style: solid;
+    border-top-width: 3px;
+    border-radius: 3px;
+  }
+  .flourish:before {
+    right: 0.5em;
+    margin-left: -50%;
+  }
+  .flourish:after {
+    left: 0.5em;
+    margin-right: -50%;
+  }

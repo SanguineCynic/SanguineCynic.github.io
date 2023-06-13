@@ -1,10 +1,11 @@
+/* PROJECT CARDS */
+
 .cardcontainer {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     padding: 40px;
-    margin-bottom: 20%;
 }
 
 .card {
@@ -85,7 +86,7 @@
     --ionicon-stroke-width: 24px;
 }
 
-/* .icon:hover:before , .icon:active:before{
+.icon:hover:before , .icon:active:before{
     content: url('images/backflipdog.gif');
     left: -90px;
     position: absolute;
@@ -93,7 +94,7 @@
     display: block;
     width: 100%;
     z-index: 1;
-} */
+}
 
 #LuckPreview:hover, #LuckPreview:active{
     content:url('images/LuckPreview.png');
@@ -127,3 +128,69 @@
     font-family: Open Sans;
     text-align: center;
 }
+
+
+/* FROSTED GLASS CARDS */
+#skills {
+    font-family: sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 2vw;
+    vertical-align: middle;
+    width: 100vw;
+    height: 70vh;
+    min-height: 450px;
+    padding: 30px;
+    box-sizing: border-box;
+    background-image: url("images/matrix.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+.auth--card {
+    position: relative;
+    margin: 0 auto;
+    padding: 30px;
+    width: 25%;
+    text-align: center;
+    vertical-align: middle;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    overflow: hidden;
+    background: inherit;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+  
+  .auth--card::before {
+    display: block;
+    position: absolute;
+    content: "";
+    width: 110%;
+    height: 110%;
+    top: 0;
+    left: 0;
+    background: inherit;
+    filter: blur(10px);
+    margin: -5%;
+  }
+
+    .auth--card p{
+        position: relative;
+        list-style-type:none;
+        text-align: center;
+        color: black;
+        font-size: 1em;
+        margin: 2px 0 2px 0;
+        font-family: Open Sans;
+        font-weight: 600;
+    }
+
+  .auth--logo {
+    position: relative;
+    width: 8em;
+  }
+  
+  
